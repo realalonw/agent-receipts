@@ -1,0 +1,35 @@
+{
+  "name": "agent-receipts",
+  "version": "0.1.0",
+  "description": "A minimal, auditable protocol for AI transparency.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "dev": "tsx watch src/core/receipt.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx examples/00-hello.ts"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "receipt",
+    "audit",
+    "transparency",
+    "llm",
+    "typescript"
+  ],
+  "author": "realalonw",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "~5.9.2",
+    "tsx": "^4.21.0"
+  }
+}
